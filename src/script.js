@@ -1,6 +1,8 @@
 var pageData = {}
-async function getData() {
-    const location = 'fortaleza' // const location = prompt("Please select location")
+
+
+async function getData(location) {
+    // const location = prompt("Please select location")
     const api = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&APPID=891a74240948d51b3a4b8bf8c2b60141"
     const response = await fetch(api)
     const data = await response.json()

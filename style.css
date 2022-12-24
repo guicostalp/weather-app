@@ -201,7 +201,5 @@ h1, h3 {
     .weather-app {
         min-height: 40em;
     }
-    .panel ul {
-        display: none;
-    }
+
 }
