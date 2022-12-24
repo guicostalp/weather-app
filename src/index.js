@@ -1,5 +1,3 @@
-import { sayHi } from "./script";
+import { getData } from "./script";
 
-console.log("Hello World")
-
-sayHi()
+getData();
