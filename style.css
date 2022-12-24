@@ -12,7 +12,7 @@ h1, h3 {
 
 .weather-app {
     min-height: 100vh;
-    background-image: url(./src/img/cloudy.jpg);
+    background-image: url(./src/img/night/snowy.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,5 +200,8 @@ h1, h3 {
 @media screen and (max-height: 300px) {
     .weather-app {
         min-height: 40em;
+    }
+    .panel ul {
+        display: none;
     }
 }
